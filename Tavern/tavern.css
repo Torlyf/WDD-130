@@ -76,9 +76,12 @@ section {
   grid-template-columns:2;
   width:100%;
   #irl {
-    width:200px;
-    height:200px;
+    width:25%;
     grid-column: 3;
+  }
+  #text {
+    padding-left:10%;
+    width:50%
   }
 }
 
