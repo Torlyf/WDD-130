@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/MinecraftRegular.woff') format('woff');
+    font-weight: normal;  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/MinecraftBold.woff') format('woff');
+    font-weight: bold;  font-style: normal;
+}
+
+body {
+  background-color: #FFEEDD;
+  font-family: 'Quantico';
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  background-color: #8696B1;
+
+  a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+}
+
+header {
+  text-align: center;
+  background-color: #53bccb;
+  padding: 5px;
+  font-family: 'Minecraft';
+  font-size: 1.5em;
+}
+
+section {
+  padding: 2%;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  padding: 18px;
+}
+
+#banner {
+  width:100%;
+  height:160px;
+  content:justify;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 100%);
+  object-fit: cover;
+  object-position: center;
+  margin-top:-5px;
+}
+
+#about {
+  display:grid;
+  grid-template-columns:2;
+  width:100%;
+  #irl {
+    width:200px;
+    height:200px;
+    grid-column: 3;
+  }
+}
+
+#content {
+  text-align: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2;
+  margin-top:-160px;
+  position:relative;
+  z-index: 1;
+
+  #description {
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  #twitch {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #youtube {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #discord {
+    grid-column: 3;
+    grid-row: 2;
+  }
+}
+
+footer {
+  background-color: #8696B1;
+  display: grid;
+  grid-template-columns: 2;
+  p {
+    grid-column:2;
+  }
+}

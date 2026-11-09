@@ -1,0 +1,22 @@
+/* Applies to every page on the site.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+nav {
+    background-color: #8696b1;
+    font-family: 'Minecraft';
+    padding: 0px;
+    padding-bottom: 42px;
+    padding-left: 1%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    margin: .7%;
+}
