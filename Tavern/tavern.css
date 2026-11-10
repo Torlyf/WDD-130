@@ -10,9 +10,6 @@
     font-weight: bold;  font-style: normal;
 }
 
-* {
-  outline: 1px solid red;
-}
 body {
   background-color: #FFEEDD;
   font-family: 'Quantico';
