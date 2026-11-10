@@ -10,11 +10,15 @@
     font-weight: bold;  font-style: normal;
 }
 
+* {
+  outline: 1px solid red;
+}
 body {
   background-color: #FFEEDD;
   font-family: 'Quantico';
   margin: 0;
   padding: 0;
+  width:100%;
 }
 
 nav {
@@ -28,7 +32,7 @@ nav {
 
   a {
     padding:1em;
-    min-width: 120px;
+    width: 120px;
     text-decoration: none;
     padding: 10px;
   }
@@ -76,19 +80,19 @@ section {
   grid-template-columns:2;
   width:100%;
   #irl {
-    width:50%;
+    width:46%;
     grid-column: 3;
   }
   #text {
     padding-left:10%;
-    width:50%
+    width:40%
   }
 }
 
 #content {
   text-align: center;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3;
   grid-template-rows: 2;
   margin-top:-160px;
   position:relative;
@@ -110,7 +114,10 @@ section {
     grid-column: 3;
     grid-row: 2;
   }
-  #twitch p, #youtube p, #discord p {width:75%;margin:auto;padding-bottom:20px;}
+  #twitch p, #youtube p, #discord p {
+    width:75%;
+    margin:auto;
+    padding-bottom:20px;}
 }
 
 #contact {
