@@ -44,6 +44,10 @@ nav {
   }
 }
 
+h1 {
+  font-family: 'Quantico';
+}
+
 header {
   text-align: center;
   background-color: #53bccb;
@@ -88,7 +92,8 @@ section {
 
 #content {
   text-align: center;
-  display:grid;
+  display:flex;
+  flex-wrap: wrap;
   grid-template-columns: 3;
   grid-template-rows: 2;
   margin-top:-160px;
